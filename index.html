@@ -6,14 +6,41 @@
   <title>Mein Lernkurs</title>
 </head>
 <body>
-  <h1>Willkommen zu meinem Lernkurs</h1>
-  <p>Das ist meine erste selbst gebaute Lernumgebung.</p>
-
-  <h2>Das lernst du heute</h2>
-  <ul>
-    <li>Was das Thema ist</li>
-    <li>Warum es wichtig ist</li>
-    <li>Wie du es anwenden kannst</li>
-  </ul>
+  <div class="dashboard">
+    <header>
+      <h1>Haupt Campus Dashboard</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Startseite</a></li>
+          <li><a href="#">Campusorte</a></li>
+          <li><a href="#">Statistiken</a></li>
+          <li><a href="#">Einstellungen</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="info">
+        <h2>Campus Informationen</h2>
+        <p>Willkommen am Hauptcampus! Hier findest du aktuelle Infos, Statistiken und Navigation zu weiteren Campusorten.</p>
+      </section>
+      <section class="stats">
+        <h2>Statistiken</h2>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <span>Studierende</span>
+            <strong id="students-count">1200</strong>
+          </div>
+          <div class="stat-card">
+            <span>Dozenten</span>
+            <strong id="teachers-count">85</strong>
+          </div>
+          <div class="stat-card">
+            <span>Veranstaltungen</span>
+            <strong id="events-count">34</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
